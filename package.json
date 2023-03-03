@@ -6,15 +6,15 @@
   "type": "module",
   "scripts": {
     "test00": "node ./Tests/test00.test.js",
-    "test01": "node ./Tests/test01.js",
-    "test02": "node ./Tests/test02.js",
-    "test03": "node ./Tests/test03.js",
-    "test04": "node ./Tests/test04.js",
-    "test05": "node ./Tests/test05.js",
-    "test06": "node ./Tests/test06.js",
-    "test07": "node ./Tests/test07.js",
-    "test08": "node ./Tests/test08.js",
-    "test09": "node ./Tests/test09.js"
+    "test01": "node ./Tests/test01.test.js",
+    "test02": "node ./Tests/test02.test.js",
+    "test03": "node ./Tests/test03.test.js",
+    "test04": "node ./Tests/test04.test.js",
+    "test05": "node ./Tests/test05.test.js",
+    "test06": "node ./Tests/test06.test.js",
+    "test07": "node ./Tests/test07.test.js",
+    "test08": "node ./Tests/test08.test.js",
+    "test09": "node ./Tests/test09.test.js"
   },
   "keywords": [
     "JS"
