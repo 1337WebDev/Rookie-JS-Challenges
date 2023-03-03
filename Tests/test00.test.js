@@ -1,16 +1,24 @@
 import getStatus from "../Level00/index.js";
 import COLORS from "./utils.js";
 
-try {
+const test_a = () => {
   const status = getStatus(true);
   if (status.status === "busy") {
     console.log(COLORS.GREEN, "Test passed");
+    return true;
   }
   else
   {
     console.log(COLORS.RED, "Test failed");
+    console.log("Your output", status);
+    console.log("Expected output", { status: "busy" });
+    return false;
   }
-  console.log("status", status);
+}
+
+try {
+  if (test_a())
+    console.log(COLORS.GREEN, "All tests passed successfully!");
 }
 catch (e) {
   console.error(COLORS.RED, "Test failed ");
