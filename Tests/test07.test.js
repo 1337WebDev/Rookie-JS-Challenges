@@ -111,7 +111,6 @@ const test_e = () => {
 
 try {
     if (test_a() && test_b() && test_c() && test_d() && test_e()) {
-
         console.log(COLORS.GREEN, "All tests passed");
     }
 }
